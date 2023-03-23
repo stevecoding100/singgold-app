@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/singgold-app/static/css/main.38638649.css",
+    "main.js": "/singgold-app/static/js/main.40c136fc.js",
+    "index.html": "/singgold-app/index.html",
+    "main.38638649.css.map": "/singgold-app/static/css/main.38638649.css.map",
+    "main.40c136fc.js.map": "/singgold-app/static/js/main.40c136fc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.38638649.css",
+    "static/js/main.40c136fc.js"
+  ]
+}
