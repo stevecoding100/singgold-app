@@ -39,7 +39,7 @@ const stats = [
 
 export default function Stats() {
     return (
-        <div className=" grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-3 mt-8">
+        <div className=" grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-3 mt-8 px-22">
             {stats.map((item) => (
                 <div
                     key={item.id}

@@ -2,6 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 body {
-    @apply bg-primary;
-    @apply text-graywhite;
+    @apply bg-white;
+    @apply text-black;
 }
