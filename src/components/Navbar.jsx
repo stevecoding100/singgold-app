@@ -71,9 +71,7 @@ export default function Example() {
                                         <CustomLink to="/courses">
                                             Courses
                                         </CustomLink>
-                                        <CustomLink to="/mentors">
-                                            Mentors
-                                        </CustomLink>
+
                                         <CustomLink to="/about">
                                             About
                                         </CustomLink>
@@ -142,10 +140,12 @@ export default function Example() {
                                         <span className="sr-only">
                                             View notifications
                                         </span>
-                                        <ShoppingBagIcon
-                                            className="h-6 w-6"
-                                            aria-hidden="true"
-                                        />
+                                        <Link to="/cart">
+                                            <ShoppingBagIcon
+                                                className="h-6 w-6"
+                                                aria-hidden="true"
+                                            />
+                                        </Link>
                                     </button>
 
                                     {/* Profile dropdown */}
@@ -237,13 +237,6 @@ export default function Example() {
                             </CustomNavLink>
                             <CustomNavLink as="a" to="/courses">
                                 Courses
-                            </CustomNavLink>
-                            <CustomNavLink
-                                as="a"
-                                to="/mentors"
-                                className="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white"
-                            >
-                                Mentors
                             </CustomNavLink>
                             <CustomNavLink
                                 as="a"

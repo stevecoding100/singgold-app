@@ -1,58 +1,5 @@
 import { StarIcon } from "@heroicons/react/20/solid";
-
-const reviews = {
-    average: 4,
-    totalCount: 1624,
-    counts: [
-        { rating: 5, count: 1019 },
-        { rating: 4, count: 162 },
-        { rating: 3, count: 97 },
-        { rating: 2, count: 199 },
-        { rating: 1, count: 147 },
-    ],
-    featured: [
-        {
-            id: 1,
-            rating: 5,
-            content: `
-        <p>This is the bag of my dreams. I took it on my last vacation and was able to fit an absurd amount of snacks for the many long and hungry flights.</p>
-      `,
-            author: "John Selmania",
-            avatarSrc:
-                "https://images.unsplash.com/photo-1568602471122-7832951cc4c5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80",
-        },
-        {
-            id: 2,
-            rating: 4,
-            content: `
-        <p>This is the bag of my dreams. I took it on my last vacation and was able to fit an absurd amount of snacks for the many long and hungry flights.</p>
-      `,
-            author: "Emily Selman",
-            avatarSrc:
-                "https://images.unsplash.com/photo-1502685104226-ee32379fefbe?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=256&h=256&q=80",
-        },
-        {
-            id: 3,
-            rating: 4,
-            content: `
-        <p>This is the bag of my dreams. I took it on my last vacation and was able to fit an absurd amount of snacks for the many long and hungry flights.</p>
-      `,
-            author: "Shein Namid",
-            avatarSrc:
-                "https://images.unsplash.com/photo-1664575602554-2087b04935a5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80",
-        },
-        {
-            id: 4,
-            rating: 5,
-            content: `
-        <p>This is the bag of my dreams. I took it on my last vacation and was able to fit an absurd amount of snacks for the many long and hungry flights.</p>
-      `,
-            author: "Nancy Karmic",
-            avatarSrc:
-                "https://images.unsplash.com/photo-1611432579402-7037e3e2c1e4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=930&q=80",
-        },
-    ],
-};
+import { reviews } from "../data";
 
 function classNames(...classes) {
     return classes.filter(Boolean).join(" ");
