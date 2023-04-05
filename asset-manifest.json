@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/singgold-app/static/css/main.38638649.css",
-    "main.js": "/singgold-app/static/js/main.40c136fc.js",
-    "index.html": "/singgold-app/index.html",
-    "main.38638649.css.map": "/singgold-app/static/css/main.38638649.css.map",
-    "main.40c136fc.js.map": "/singgold-app/static/js/main.40c136fc.js.map"
+    "main.css": "/singgoldgit-app/static/css/main.976218e8.css",
+    "main.js": "/singgoldgit-app/static/js/main.b90421b4.js",
+    "index.html": "/singgoldgit-app/index.html",
+    "main.976218e8.css.map": "/singgoldgit-app/static/css/main.976218e8.css.map",
+    "main.b90421b4.js.map": "/singgoldgit-app/static/js/main.b90421b4.js.map"
   },
   "entrypoints": [
-    "static/css/main.38638649.css",
-    "static/js/main.40c136fc.js"
+    "static/css/main.976218e8.css",
+    "static/js/main.b90421b4.js"
   ]
 }
